@@ -33,5 +33,8 @@ if (parte3 % 5) {
 //espacio
 //parte4
 let parte4 = prompt("Introduce un numero");
-for (let i = 0; (i = parte4); i++) if ((i = parte4)) break;
-print(i);
+for (let i = 0; i <= parte4; i++) {
+  console.log(i);
+}
+//parte5
+//parte5
