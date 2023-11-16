@@ -36,5 +36,21 @@ let parte4 = prompt("Introduce un numero");
 for (let i = 0; i <= parte4; i++) {
   console.log(i);
 }
+//espacio
+//espacio
 //parte5
-//parte5
+let parte5palabra = prompt("introduce una palabra");
+let parte5numero = prompt(
+  "introduce un numero con la cantidad de veces que quieres que se repita la palabra"
+);
+for (let i = 0; i < parte5numero; i++) {
+  console.log(parte5palabra);
+}
+//espacio
+//esapcio
+//parte6
+let dato1 = prompt("ingrese una palabra");
+let dato2 = prompt("ingrese una palabra");
+let dato3 = prompt("ingrese una palabra");
+Array(dato1, dato2, dato3);
+console.log();
