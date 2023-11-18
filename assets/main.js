@@ -52,62 +52,44 @@ for (let i = 0; i < parte5numero; i++) {
 let dato1 = prompt("ingrese una palabra");
 let dato2 = prompt("ingrese una palabra");
 let dato3 = prompt("ingrese una palabra");
-const datosp6 = [
-  dato1,
-  dato2,
-  dato3
-]
+const datosp6 = [dato1, dato2, dato3];
 
 console.log("imprimo todo el array", datosp6);
 //espacio
 //espacio
 //parte7
-let n1 = prompt("ingrese el primer numero")
-let n2 = prompt("ingrese el segundo numero")
-let n3 = prompt("ingrese el tercer numero")
-let n4 = prompt("ingrese el cuarto numero")
-let n5 = prompt("ingrese el quinto numero")
-let n6 = prompt("ingrese el sexto numero")
-let n7 = prompt("ingrese el septimo numero")
-let n8 = prompt("ingrese el octavo numero")
-let n9 = prompt("ingrese el noveno numero")
-let n10 = prompt("ingrese el decimo numero")
+let n1 = prompt("ingrese el primer numero");
+let n2 = prompt("ingrese el segundo numero");
+let n3 = prompt("ingrese el tercer numero");
+let n4 = prompt("ingrese el cuarto numero");
+let n5 = prompt("ingrese el quinto numero");
+let n6 = prompt("ingrese el sexto numero");
+let n7 = prompt("ingrese el septimo numero");
+let n8 = prompt("ingrese el octavo numero");
+let n9 = prompt("ingrese el noveno numero");
+let n10 = prompt("ingrese el decimo numero");
 
-const datosp7 = [
-  n1,
-  n2,
-  n3,
-  n4,
-  n5,
-  n6,
-  n7,
-  n8,
-  n9,
-  n10
-]
+const datosp7 = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10];
 
-for(const numerop7 of datosp7){
-  if(numerop7 === n5){
+for (const numerop7 of datosp7) {
+  if (numerop7 === n5) {
     continue;
   }
-  console.log(numerop7)
-  
+  console.log(numerop7);
 }
 //espacio
 //espacio
 //parte8
-let multin1 = prompt("ingrese un numero que luego multiplicare n1/3")
-let multin2 = prompt("ingrese un numero que luego multiplicare n2/3")
-let multin3 = prompt("ingrese un numero que luego multiplicare n3/3")
-let multiplicador = prompt("dime el numero por el que quieres multiplicar los numeros anteriores")
+let multin1 = prompt("ingrese un numero que luego multiplicare n1/3");
+let multin2 = prompt("ingrese un numero que luego multiplicare n2/3");
+let multin3 = prompt("ingrese un numero que luego multiplicare n3/3");
+let multiplicador = prompt(
+  "dime el numero por el que quieres multiplicar los numeros anteriores"
+);
 
-const p8numeros = [
-  multin1,
-  multin2,
-  multin3
-]
+const p8numeros = [multin1, multin2, multin3];
 
-for(const numerosamultiplicar of p8numeros){
+for (const numerosamultiplicar of p8numeros) {
   let resultados = numerosamultiplicar * multiplicador;
-  console.log(resultados)
+  console.log("resultado de la multiplicacion =", resultados);
 }
